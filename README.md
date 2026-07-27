@@ -12,7 +12,7 @@
  Here is the supported script For Arduino
 
 
-
+{
  #include <SoftwareSerial.h>
 #include <Servo.h>
 
@@ -110,4 +110,5 @@ void runAutoPilot() {
     else { turnLeft(); delay(400); }
     stopRobot();
   }
+}
 }
