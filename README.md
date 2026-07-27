@@ -11,8 +11,7 @@
 ​"The perfect companion for every Arduino enthusiast—simple, fast, and fully adaptable
  Here is the supported script For Arduino
 
-
-{
+//[
  #include <SoftwareSerial.h>
 #include <Servo.h>
 
@@ -111,4 +110,4 @@ void runAutoPilot() {
     stopRobot();
   }
 }
-}
+]
